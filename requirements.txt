@@ -1,0 +1,9 @@
+Flask==3.0.2
+keras==2.15.0
+numpy==1.26.4
+opencv_python==4.9.0.80
+opencv_python_headless==4.9.0.80
+Requests==2.31.0
+streamlit==1.33.0
+tensorflow==2.15.0
+tensorflow_macos==2.15.0
