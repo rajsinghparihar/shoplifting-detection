@@ -1,9 +1,12 @@
 from flask import Flask, request, jsonify
 from api import DetectionModel
+import os
 
 app = Flask(__name__)
 model_instance = DetectionModel()
 temp_filepath = "./temp/temp.mp4"
+if not os.path.exists("./temp/"):
+    os.makedirs("./temp/")
 
 
 @app.route("/", methods=["GET"])
