@@ -1,0 +1,15 @@
+*.mp4
+*.csv
+*.ipynb
+*.zip
+*.png
+
+data/
+model/transfer-learning-mobilenet-ckpt.weights.h5
+temp/
+videos/
+
+main.py
+videos/
+
+__pycache__/
